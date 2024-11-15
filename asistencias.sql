@@ -191,6 +191,9 @@ INSERT INTO alumnos (nombre, apellido, fecha_nacimiento, dni) VALUES
 ('Diego', 'Segovia', '1997-02-13', 34567890),
 ('Camila', 'Sittner', '1999-08-20', 36456789),
 ('Yamil', 'Villa', '1998-06-28', 35345678);
+
+INSERT INTO `usuarios` (`id_usuarios`, `nombre`, `apellido`, `correo_electronico`, `telefono`, `usuario`, `contrasena`) VALUES
+	(1, 'admin', 'admin', 'admin@gmail.com', '123', 'Admin', '1234');
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
